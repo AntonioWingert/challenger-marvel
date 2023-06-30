@@ -8,4 +8,9 @@ export const Container = styled.h1<TitleProps>`
   color: ${({color, theme}) => color ? theme.colors[color] : theme.colors.primary};
   font-weight: ${({ $weight, theme }) => $weight ? theme.weight[$weight] : theme.weight.regular};
   padding: ${({theme}) => theme.padding.xl};
+
+
+  @media (max-width: 320px) {
+    font-size: ${({ theme }) => theme["font-sizes"]["sm"]};
+  }
 `;

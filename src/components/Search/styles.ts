@@ -16,4 +16,9 @@ export const Container = styled.form`
     width: 100%;
     height: 100%;
   }
+
+  @media (max-width: 320px) {
+    font-size: ${({ theme }) => theme["font-sizes"]["sm"]};
+    height: auto;
+  }
 `;

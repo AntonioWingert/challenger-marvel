@@ -16,4 +16,13 @@ export const Input = styled.input<CustomInputProps>`
     font-size: 1rem;
     padding-left: 1rem;
   }
+
+  @media (max-width: 320px) {
+    width: 80%;
+    padding-left: 0;
+
+    &::placeholder {
+      padding-left: 0.4rem;
+    }
+  }
 `;
