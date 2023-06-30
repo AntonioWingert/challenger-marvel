@@ -17,7 +17,7 @@ export const Container = styled.form`
     height: 100%;
   }
 
-  @media (max-width: 320px) {
+  @media (min-width: 320px) {
     font-size: ${({ theme }) => theme["font-sizes"]["sm"]};
     height: auto;
   }

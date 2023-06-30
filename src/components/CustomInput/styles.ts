@@ -17,7 +17,7 @@ export const Input = styled.input<CustomInputProps>`
     padding-left: 1rem;
   }
 
-  @media (max-width: 320px) {
+  @media (min-width: 320px) {
     width: 80%;
     padding-left: 0;
 

@@ -10,7 +10,7 @@ export const Container = styled.h1<TitleProps>`
   padding: ${({theme}) => theme.padding.xl};
 
 
-  @media (max-width: 320px) {
+  @media (min-width: 320px) {
     font-size: ${({ theme }) => theme["font-sizes"]["sm"]};
   }
 `;
