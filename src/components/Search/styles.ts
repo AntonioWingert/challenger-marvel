@@ -22,3 +22,7 @@ export const Container = styled.form`
     height: auto;
   }
 `;
+
+export const Error = styled.span`
+  color: ${({ theme }) => theme["colors"]["bg-primary"]};
+`;
