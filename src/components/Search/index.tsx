@@ -13,14 +13,14 @@ export default function Search() {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
+    if (heroInput === '') return;
     const data = await getCharacters(heroInput);
     setHeroData(data);
-    console.log(data);
   };
 
   return (
     <S.Container onSubmit={handleSubmit}>
-      <CustomTitle title='Pesquise seu heroi favorito!' size='md' weight='regular' />
+      <CustomTitle title='Pesquise seu heroi favorito!' size='md' $weight='regular' />
       <CustomInput placeholder='Insira o nome do seu personagem favorito' value={heroInput} onChange={({ target: { value } }) => setHeroInput(value)} />
       <CustomButton title='Pesquisar' size='lg' />
 
