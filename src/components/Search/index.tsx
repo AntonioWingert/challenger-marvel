@@ -19,9 +19,9 @@ export default function Search() {
     setError('');
     setHeroData(null);
     if (heroInput === '') return setError('Insira um nome válido');
-    const data = await getCharacters(heroInput);
-    if (data.data.results.length === 0) return setError('Nenhum personagem com esse nome foi encontrado');
-    setHeroData(data);
+    const response = await getCharacters(heroInput);
+    if (response.data.results.length === 0) return setError('Nenhum personagem com esse nome foi encontrado');
+    setHeroData(response);
   };
 
   return (
