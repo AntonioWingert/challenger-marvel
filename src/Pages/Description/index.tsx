@@ -1,9 +1,11 @@
 import { useParams } from "react-router-dom";
 import HeroDescription from "../../components/HeroDescription";
 import { useEffect, useState } from "react";
-import { MarvelApiResponse } from "../../@types/Api";
 import { getCharacterById } from "../../Api";
-import { Link } from "react-router-dom";
+
+import { MarvelApiResponse } from "../../@types/Api";
+
+import HeroNotFound from "../../components/HeroNotFound";
 
 export default function Description() {
   const [heroData, setHeroData] = useState<MarvelApiResponse | null>(null);
@@ -22,15 +24,14 @@ export default function Description() {
 
   if (!hero) return (
     <>
-      <div>Héroi não encontrado, por favor retorne a tela incial</div>
-      <Link to='/'>Voltar</Link>
+      <HeroNotFound />
     </>
   );
 
 
   return (
     <>
-      <HeroDescription id={hero?.id} name={hero?.name} thumbnail={hero?.thumbnail.path} />
+      <HeroDescription name={hero.name} thumbnail={hero.thumbnail.path} description={hero.description} />
     </>
   );
 }

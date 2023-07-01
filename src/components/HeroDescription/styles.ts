@@ -5,20 +5,26 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 0.2rem;
-  width: 150px;
-  height: 270px;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
   background-color: #ccc;
   border-radius: 0.5rem;
 
   h2 {
-    font-size: 1rem;
+    font-size: 4rem;
     text-align: center;
   }
 
   img {
-    width: 100px;
-    height: 150px;
+    width: auto;
+    height: auto;
+  }
+
+  p {
+    font-size: 1rem;
+    text-align: center;
+    width: 40%;
   }
 
   a {
@@ -27,8 +33,26 @@ export const Container = styled.div`
     justify-content: center;
     text-decoration: none;
     color: ${({theme}) => theme.colors["secondary"]};
-    width: 100%;
-    height: 25px;
+    width: 35rem;
+    height: 4rem;
     background-color: ${({theme}) => theme.colors["bg-primary"]};
+  }
+
+  @media (max-width: 768px) {
+
+    a {
+      width: 100%;
+      height: 2rem;
+    }
+
+    img {
+      width: 80%;
+      height: 40vh;
+    }
+
+    p {
+      width: 80%;
+      text-align: justify;
+    }
   }
 `;
