@@ -22,6 +22,9 @@ O aplicativo possui as seguintes funcionalidades:
 
 4. Responsividade: o aplicativo é responsivo e se adapta a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis e desktops.
 
+## Demonstração
+Uma demonstração do aplicativo pode ser acessada no seguinte link: https://challenger-marvel.vercel.app/
+
 ## Executando o projeto
 
 Para executar o projeto em seu ambiente local, siga as etapas abaixo:
