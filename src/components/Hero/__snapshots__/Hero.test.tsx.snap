@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Hero /> > should render correctly with default props 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  width: 150px;
+  height: 270px;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+}
+
+.c0 h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.c0 img {
+  width: 100px;
+  height: 150px;
+}
+
+.c0 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #F5F5F5;
+  width: 100%;
+  height: 25px;
+  background-color: #4A1414;
+}
+
+<div
+  class="c0"
+>
+  <h2>
+    Hero
+  </h2>
+  <img
+    alt="Hero image Hero"
+    src="hero.image/portrait_medium.jpg"
+  />
+  <a
+    href="/description/1"
+  >
+    Ver Mais
+  </a>
+</div>
+`;

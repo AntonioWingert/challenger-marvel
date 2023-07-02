@@ -5,7 +5,7 @@ type ButtonProps = Omit<CustomButtonProps, 'title'>;
 
 export const Container = styled.button<ButtonProps>`
   cursor: pointer;
-  padding: ${({theme, size}) => size ? theme["button-sizes"][size] : theme["button-sizes"].md};
+  padding: ${({theme, size}) => size && theme["button-sizes"][size]};
   border-radius: 10px;
   border: none;
   background-color: ${({theme}) => theme.colors["bg-primary"]};

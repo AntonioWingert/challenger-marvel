@@ -11,7 +11,7 @@ export default function HeroNotFound() {
     <>
       <S.Container>
         <img src={SpiderImage} />
-        <CustomTitle title="Herói não encontrado" size="lg" />
+        <CustomTitle title="Herói não encontrado" $size="lg" />
         <Link to='/'>Voltar</Link>
       </S.Container>
     </>
