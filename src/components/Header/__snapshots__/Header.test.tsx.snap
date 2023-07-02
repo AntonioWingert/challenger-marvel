@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Header /> > should render correctly with default props 1`] = `
+.c1 {
+  font-size: 2.4rem;
+  color: #F5F5F5;
+  font-weight: 400;
+  padding: 32px;
+}
+
+.c0 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #4A1414;
+}
+
+@media (max-width: 320px) {
+  .c1 {
+    font-size: 1.6rem;
+  }
+}
+
+<header
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Marvel Challenger
+  </h1>
+</header>
+`;

@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<CustomButton /> > should render the button with all props passed 1`] = `
+.c0 {
+  cursor: pointer;
+  padding: 2rem 6rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4A1414;
+  color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.c0:hover {
+  opacity: 0.8;
+}
+
+<button
+  class="c0"
+>
+  Test
+</button>
+`;

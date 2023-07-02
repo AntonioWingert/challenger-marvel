@@ -26,7 +26,7 @@ export default function Search() {
 
   return (
     <S.Container onSubmit={handleSubmit}>
-      <CustomTitle title='Pesquise seu heroi favorito!' size='lg' $weight='regular' />
+      <CustomTitle title='Pesquise seu heroi favorito!' $size='lg' $weight='regular' />
       <CustomInput placeholder='Insira o nome do seu personagem favorito' value={heroInput} onChange={({ target: { value } }) => setHeroInput(value)} />
       <CustomButton title='Pesquisar' size='lg' />
 
