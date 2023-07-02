@@ -1,0 +1,522 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Search /> > should render error message if there is no hero with this name 1`] = `
+.c0 {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.c4 {
+  color: #4A1414;
+}
+
+.c3 {
+  cursor: pointer;
+  padding: 2rem 6rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4A1414;
+  color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.c3:hover {
+  opacity: 0.8;
+}
+
+.c2 {
+  width: 50%;
+  height: 4rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding-left: 16px;
+  font-size: 1.6rem;
+}
+
+.c2::placeholder {
+  color: #ccc;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  font-size: 2.4rem;
+  color: #0D0D0D;
+  font-weight: 400;
+  padding: 32px;
+}
+
+@media (max-width: 768px) {
+  .c0 {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .c0 {
+    font-size: 1.6rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .c2 {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .c2::placeholder {
+    padding-left: 0.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .c1 {
+    font-size: 1.6rem;
+  }
+}
+
+<form
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Pesquise seu heroi favorito!
+  </h1>
+  <input
+    class="c2"
+    placeholder="Insira o nome do seu personagem favorito"
+    value="HeroNotFound"
+  />
+  <button
+    class="c3"
+  >
+    Pesquisar
+  </button>
+  <span
+    class="c4"
+  >
+    Nenhum personagem com esse nome foi encontrado
+  </span>
+</form>
+`;
+
+exports[`<Search /> > should render error message if user not pass name 1`] = `
+.c0 {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.c4 {
+  color: #4A1414;
+}
+
+.c3 {
+  cursor: pointer;
+  padding: 2rem 6rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4A1414;
+  color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.c3:hover {
+  opacity: 0.8;
+}
+
+.c2 {
+  width: 50%;
+  height: 4rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding-left: 16px;
+  font-size: 1.6rem;
+}
+
+.c2::placeholder {
+  color: #ccc;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  font-size: 2.4rem;
+  color: #0D0D0D;
+  font-weight: 400;
+  padding: 32px;
+}
+
+@media (max-width: 768px) {
+  .c0 {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .c0 {
+    font-size: 1.6rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .c2 {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .c2::placeholder {
+    padding-left: 0.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .c1 {
+    font-size: 1.6rem;
+  }
+}
+
+<form
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Pesquise seu heroi favorito!
+  </h1>
+  <input
+    class="c2"
+    placeholder="Insira o nome do seu personagem favorito"
+    value=""
+  />
+  <button
+    class="c3"
+  >
+    Pesquisar
+  </button>
+  <span
+    class="c4"
+  >
+    Insira um nome válido
+  </span>
+</form>
+`;
+
+exports[`<Search /> > should render home page 1`] = `
+.c0 {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.c3 {
+  cursor: pointer;
+  padding: 2rem 6rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4A1414;
+  color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.c3:hover {
+  opacity: 0.8;
+}
+
+.c2 {
+  width: 50%;
+  height: 4rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding-left: 16px;
+  font-size: 1.6rem;
+}
+
+.c2::placeholder {
+  color: #ccc;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  font-size: 2.4rem;
+  color: #0D0D0D;
+  font-weight: 400;
+  padding: 32px;
+}
+
+@media (max-width: 768px) {
+  .c0 {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .c0 {
+    font-size: 1.6rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .c2 {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .c2::placeholder {
+    padding-left: 0.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .c1 {
+    font-size: 1.6rem;
+  }
+}
+
+<form
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Pesquise seu heroi favorito!
+  </h1>
+  <input
+    class="c2"
+    placeholder="Insira o nome do seu personagem favorito"
+    value=""
+  />
+  <button
+    class="c3"
+  >
+    Pesquisar
+  </button>
+</form>
+`;
+
+exports[`<Search /> > should render one list of heroes with name passed 1`] = `
+.c0 {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.c3 {
+  cursor: pointer;
+  padding: 2rem 6rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4A1414;
+  color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.c3:hover {
+  opacity: 0.8;
+}
+
+.c2 {
+  width: 50%;
+  height: 4rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding-left: 16px;
+  font-size: 1.6rem;
+}
+
+.c2::placeholder {
+  color: #ccc;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  font-size: 2.4rem;
+  color: #0D0D0D;
+  font-weight: 400;
+  padding: 32px;
+}
+
+.c5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  width: 150px;
+  height: 270px;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+}
+
+.c5 h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.c5 img {
+  width: 100px;
+  height: 150px;
+}
+
+.c5 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #F5F5F5;
+  width: 100%;
+  height: 25px;
+  background-color: #4A1414;
+}
+
+.c4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .c0 {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .c0 {
+    font-size: 1.6rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .c2 {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .c2::placeholder {
+    padding-left: 0.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .c1 {
+    font-size: 1.6rem;
+  }
+}
+
+<form
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Pesquise seu heroi favorito!
+  </h1>
+  <input
+    class="c2"
+    placeholder="Insira o nome do seu personagem favorito"
+    value="Spider"
+  />
+  <button
+    class="c3"
+  >
+    Pesquisar
+  </button>
+  <div
+    class="c4"
+  >
+    <div
+      class="c5"
+    >
+      <h2>
+        Iron Man
+      </h2>
+      <img
+        alt="Hero image Iron Man"
+        src="http://example.com/ironman/portrait_medium.jpg"
+      />
+      <a
+        href="/description/1"
+      >
+        Ver Mais
+      </a>
+    </div>
+    <div
+      class="c5"
+    >
+      <h2>
+        Spider Man
+      </h2>
+      <img
+        alt="Hero image Spider Man"
+        src="http://example.com/spiderman/portrait_medium.jpg"
+      />
+      <a
+        href="/description/2"
+      >
+        Ver Mais
+      </a>
+    </div>
+  </div>
+</form>
+`;

@@ -67,10 +67,10 @@ exports[`<Hero /> > should render correctly with default props 1`] = `
     class="c1"
   >
     <h2>
-      Spider-Man
+      Spider Man
     </h2>
     <img
-      alt="Hero image Spider-Man"
+      alt="Hero image Spider Man"
       src="http://example.com/spiderman/portrait_medium.jpg"
     />
     <a
